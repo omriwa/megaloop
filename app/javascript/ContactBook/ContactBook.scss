@@ -1,0 +1,42 @@
+.ContactBook {
+    .loading, .error {
+        display: block;
+        margin-top: 1em;
+    }
+
+    .loading {
+        color: #555;
+    }
+
+    .error {
+        color: #921;
+    }
+
+    .ContactSearch * {
+        display: inline-block;
+    }
+
+    .ContactSearch {
+        input {
+            width: 90%;
+        }
+
+        label {
+            width: 10%;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        .ContactSearch {
+            input {
+                font-size: 35px;
+                width: 85%;
+            }
+
+            label {
+                font-size: 25px;
+                width: 15%;
+            }
+        }
+    }
+}
