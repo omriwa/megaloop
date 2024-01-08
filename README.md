@@ -154,6 +154,11 @@ While working on your task you can:
 
 To make sure your code formatting follows the project conventions, you can:
 
+
+## Contributing
+
+ - [By Omri Wallach](https://www.linkedin.com/in/omri-wallach-19989a113/)
+
   - Run `make lint` to check for code formatting issues
   - Run `make lintfix` to automatically fix formatting issues (when possible)
 
